@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'ghost';
+            src: url('./fonts/iknowaghost.ttf') format('opentype'),
+            url('iknowaghost.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(17, 17, 17);
+        }
+        h1{
+            font-family: 'ghost','Times New Roman', Times, serif;
+            font-size: 5em;
+            text-align: center;
+            font-weight: normal;
+            color: white;
+        }
+        p{
+            font: normal 2em serif;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eu Conheço um Fantasma</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi magni velit vero, quidem rerum aliquam repudiandae aperiam ut quos et praesentium soluta ab pariatur commodi corrupti corporis voluptatum culpa. Maiores? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius ut veritatis et. Nesciunt, voluptate inventore. Facere reprehenderit itaque rerum soluta reiciendis dolores, tempora provident nisi molestias, dignissimos asperiores magnam! Accusantium.</p>
+    
+</body>
+</html>
